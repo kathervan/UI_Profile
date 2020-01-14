@@ -1,0 +1,67 @@
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/settings"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="-107dp">
+
+        <TextView
+            android:id="@+id/textViewAccountHeader4"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="62dp"
+            android:background="#DCDCDC"
+            android:paddingLeft="10dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:text="@string/Regional_header"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textViewAccountHeader3" />
+
+        <TextView
+            android:id="@+id/textViewAccountHeader3"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="175dp"
+            android:background="#DCDCDC"
+            android:paddingLeft="10dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:text="@string/notifications_header"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textViewAccountHeader" />
+
+        <TextView
+            android:id="@+id/textViewAccountHeader"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:background="#DCDCDC"
+            android:paddingLeft="10dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:text="@string/account_header"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

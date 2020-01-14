@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">Profile</string>
+    <string name="title_activity_edit_profile_page">EditProfilePage</string>
+    <string name="profile_name">Profile Name</string>
+    <string name="occupation">Occupation</string>
+    <string name="education">Education</string>
+    <string name="country">Country</string>
+    <string name="email">E-Mail</string>
+    <string name="phone">Phone</string>
+    <string name="title_activity_settings">Settings</string>
+    <string name="posts">Posts</string>
+    <string name="followers">Followers</string>
+    <string name="following">Following</string>
+    <string name="message">Message</string>
+    <string name="Credentials">Credentials and Highlights</string>
+
+
+    <!-- Preference Titles -->
+    <string name="account_header">Account</string>
+    <string name="notifications_header">Notifications</string>
+    <string name="Regional_header">Regional</string>
+
+    <!-- Messages Preferences -->
+    <string name="private_account_title">Private Account</string>
+    <string name="edit_profile_title">Edit Profile</string>
+    <string name="change_password_title">Change Password</string>
+    <string name="comments_posts">Comments posts</string>
+    <string name="change_language">Language</string>
+    <string name="log_out">Log Out</string>
+
+
+    <!-- Testing -->
+    <string name="post_title">What are the most difficult guitar solos of all time?</string>
+    <string name="upvote">Up vote</string>
+    <string name="downvote">Down Vote</string>
+    <string name="voteCount">Vote Count</string>
+    <string name="date_posted">Date Posted</string>
+    <string name="post_content">The worlds funniest joke is a term used by Richard Wiseman of the University of Hertfordshire in 2002 to summarize one of the results of his research. For his experiment, named LaughLab, he created a website where people could rate and submit jokes.</string>
+</resources>

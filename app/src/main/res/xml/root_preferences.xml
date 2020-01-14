@@ -1,0 +1,72 @@
+<!--
+  ~ Copyright 2018 The app Open Source Project
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~      http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License.
+  -->
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory
+        android:layout_width="match_parent"
+        app:title="  ">
+        <ListPreference
+            android:defaultValue="1"
+            android:entries="@array/replay_account"
+            android:entryValues="@array/replay_account"
+            android:icon="@drawable/kuro"
+            android:key="list_preference_1"
+            android:title="@string/private_account_title" />
+        <EditTextPreference
+            android:icon="@drawable/edit"
+            android:key="edit_text_preference_1"
+            android:selectAllOnFocus="true"
+            android:singleLine="true"
+            android:title="@string/edit_profile_title" />
+        <EditTextPreference
+            android:icon="@drawable/key"
+            android:key="edit_text_preference_1"
+            android:selectAllOnFocus="true"
+            android:singleLine="true"
+            android:title="@string/change_password_title" />
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:alwaysDrawnWithCache="false"
+        android:baselineAligned="false"
+        app:title="  ">
+        <SwitchPreference
+            android:defaultValue="false"
+            android:icon="@drawable/bell"
+            android:key="switch_preference_1"
+            android:title="@string/comments_posts" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="   ">
+
+        <ListPreference
+            android:defaultValue="2"
+            android:entries="@array/replay_language"
+            android:entryValues="@array/replay_language"
+            android:icon="@drawable/language"
+            android:key="list_preference_1"
+            android:title="@string/change_language" />
+        <ListPreference
+            android:defaultValue="1"
+            android:entries="@array/replay_logout"
+            android:entryValues="@array/replay_logout"
+            android:icon="@drawable/logout"
+            android:key="list_preference_1"
+            android:title="@string/log_out" />
+    </PreferenceCategory>
+
+</PreferenceScreen>

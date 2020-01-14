@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textViewPostTitle"
+        android:layout_width="364dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/post_title"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginLeft="24dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewPostTitle"
+        app:srcCompat="@drawable/kuro" />
+
+    <TextView
+        android:id="@+id/textViewProfileName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginBottom="16dp"
+        android:text="@string/profile_name"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView2"
+        app:layout_constraintStart_toEndOf="@+id/imageView2"
+        app:layout_constraintTop_toTopOf="@+id/imageView2" />
+
+    <TextView
+        android:id="@+id/textViewPostContent"
+        android:layout_width="343dp"
+        android:layout_height="54dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/post_content"
+        app:layout_constraintEnd_toEndOf="@+id/textViewPostTitle"
+        app:layout_constraintStart_toStartOf="@+id/textViewPostTitle"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="50dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginLeft="32dp"
+        app:layout_constraintBottom_toBottomOf="@+id/textView"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewPostContent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/ic_arrow_upward_gray_24dp" />
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="50dp"
+        android:layout_height="30dp"
+        app:layout_constraintBottom_toBottomOf="@+id/textView"
+        app:layout_constraintStart_toEndOf="@+id/textView"
+        app:layout_constraintTop_toBottomOf="@+id/textViewPostContent"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/ic_arrow_downward_gray_24dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:text="@string/voteCount"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageView8"
+        app:layout_constraintTop_toBottomOf="@+id/textViewPostContent" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/date_posted"
+        app:layout_constraintEnd_toEndOf="@+id/textViewProfileName"
+        app:layout_constraintStart_toStartOf="@+id/textViewProfileName"
+        app:layout_constraintTop_toBottomOf="@+id/textViewProfileName" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
